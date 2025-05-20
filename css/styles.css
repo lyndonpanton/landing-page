@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* General ********************************************************************/
 * {
     box-sizing: border-box;
 
@@ -10,6 +11,8 @@ body, html {
     margin: 0;
     padding: 0;
 }
+
+/* Header *********************************************************************/
 
 header {
     padding: 0 15vw;
@@ -91,3 +94,37 @@ h1 {
     margin: 0 auto;
     width: 400px;
 }
+
+/* Main ***********************************************************************/
+.information {
+    padding: 24px 0 72px;
+}
+.information > h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.examples {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+
+    padding: 24px 0;
+}
+
+.example {
+    width: 200px;
+}
+
+.example-image {
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+.example-body {
+    text-align: center;
+}
+
+/* Footer *********************************************************************/
